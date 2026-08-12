@@ -1,16 +1,27 @@
-# A Cavalgada de Benício
+# A Aventura do Pequeno Benício
 
-Convite digital infantil premium inspirado no sertão nordestino e na tradição do vaqueiro.
+Convite digital infantil interativo com tema de pequeno vaqueiro, cavalo, fazenda e sertão.
 
-## Conceito
+## Direção do projeto
 
-- Personagem fictício: Benício, 5 anos
-- Abertura cinematográfica com cavalgada e porteira
-- Identidade visual baseada em couro, terracota, areia, pôr do sol e caatinga
-- Ilustração vetorial própria do vaqueirinho e do cavalo
-- Jornada interativa para conduzir Benício até o terreiro da festa
-- Layout responsivo para celular e desktop
-- Metadados e favicon personalizados
+A experiência foi reconstruída usando como referência de arquitetura e qualidade o projeto Convite Bob Esponja: uma abertura obrigatória em tela cheia, entrada temática, narrativa em cenas, interação principal, confirmação de presença e encerramento.
+
+O visual deste projeto é próprio e adaptado ao universo infantil do sertão, com fotografia realista, paleta clara e quente, tipografia amigável e foco em uma criança como protagonista.
+
+## Experiência
+
+- Abertura fixa em 100% da viewport.
+- Scroll bloqueado antes da ação do visitante.
+- Porteira animada e transição de entrada.
+- Hero narrativo após a abertura.
+- Data, horário e contagem regressiva.
+- Local fictício e botão de rota.
+- Mensagem temática.
+- Galeria de momentos.
+- Mini-game de encontrar ferraduras com deslocamento visual do personagem até o item selecionado.
+- RSVP com estado de confirmação.
+- Encerramento temático.
+- Layout mobile-first e responsivo.
 
 ## Tecnologias
 
@@ -18,18 +29,16 @@ Convite digital infantil premium inspirado no sertão nordestino e na tradição
 - React
 - TypeScript
 - Framer Motion
-- Lucide React
+- CSS responsivo
 
-## Rodando localmente
+## Desenvolvimento
 
 ```bash
 npm install
 npm run dev
 ```
 
-Acesse `http://localhost:3000`.
-
-## Build
+Produção:
 
 ```bash
 npm run build
